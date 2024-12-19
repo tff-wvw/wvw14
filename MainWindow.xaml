@@ -1,0 +1,175 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:WpfApp8"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" 
+        Height="450" 
+        Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="5"
+                    VerticalAlignment="Center">
+            <materialDesign:Card
+                HorizontalAlignment="Center"
+                Width="565"
+                Padding="8"
+                Background="{DynamicResource PrimaryHueLightBrush}"
+                Foreground="{DynamicResource SecondaryHueLightForegroundBrush}">
+                <TextBlock 
+                    FontSize="40"
+                    Text="Выберите задание:"/>
+            </materialDesign:Card>
+        </StackPanel>
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="1"
+                x:Name="buttonOne"
+                Click="buttonOne_Click"
+                Content="1" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="1"
+                Grid.Column="1"
+                x:Name="buttonTwo"
+                Click="buttonTwo_Click"
+                Content="2" Height="85" Width="100"/>
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="1"
+                Grid.Column="2"
+                x:Name="buttonThree"
+                Click="buttonThree_Click"
+                Content="3" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="1"
+                Grid.Column="3"
+                x:Name="buttonFour"
+                Click="buttonFour_Click"
+                Content="4" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="1"
+                Grid.Column="4"
+                x:Name="buttonFive"
+                Click="buttonFive_Click"
+                Content="5" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="2"
+                x:Name="buttonSix"
+                Click="buttonSix_Click"
+                Content="6" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="2"
+                Grid.Column="1"
+                x:Name="buttonSeven"
+                Click="buttonSeven_Click"
+                Content="7" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="2"
+                Grid.Column="2"
+                x:Name="buttonEight"
+                Click="buttonEight_Click"
+                Content="8" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="2"
+                Grid.Column="3"
+                x:Name="buttonNine"
+                Click="buttonNine_Click"
+                Content="9" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="2"
+                Grid.Column="4"
+                x:Name="buttonTen"
+                Click="buttonTen_Click"
+                Content="10" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="3"
+                Grid.Column="0"
+                x:Name="buttonEleven"
+                Click="buttonEleven_Click"
+                Content="11" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="3"
+                Grid.Column="1"
+                x:Name="buttonTwelve"
+                Click="buttonTwelve_Click"
+                Content="12" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="3"
+                Grid.Column="2"
+                x:Name="buttonThirteen"
+                Click="buttonThirteen_Click"
+                Content="13" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="3"
+                Grid.Column="3"
+                x:Name="buttonFourteen"
+                Click="buttonFourteen_Click"
+                Content="14" Height="85" Width="100"/>
+
+        <Button HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="40"
+                Grid.Row="3"
+                Grid.Column="4"
+                x:Name="buttonFifteen"
+                Click="buttonFifteen_Click"
+                Content="15" Height="85" Width="100"/>
+
+    </Grid>
+</Window>
